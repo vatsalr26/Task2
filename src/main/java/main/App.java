@@ -27,6 +27,7 @@ public class App {
                         hedgehog = new Hedgehog(name, age);
                         break;
                     case 3:
+                        System.out.println("How many laps?");
                         hedgehog.run(scanner.nextInt());
                         break;
                     case 0:
